@@ -4,6 +4,7 @@
 } 
 a { 
   color: inherit; 
+  text-decoration:none;
 } 
 .appHeader{
   width: 100%;
@@ -25,12 +26,22 @@ a {
   margin-top: 10px;
 }
 nav ul li a {
+  text-align: center;
   padding: 12px;
   display: block;
   padding: 16px 40px 16px 40px;
 }
+nav{
+  border: 1px solid red;
+}
+main{
+  padding:10px;
+  float: none;
+  clear: both; 
+}
+
 .navItem {
-  border: 1px solid black;   
+  border-left: 1px solid black;   
   margin-right: -5px;
   display: inline-block;
   width: 12.5%;
@@ -43,4 +54,46 @@ nav ul li a {
   padding-top: 18px;
   height: 150px;
   width: 150px;
+}
+
+.leftContainer{
+  width: 20%;
+  float: left;
+}
+.rightContainer{
+  width: 80%;
+  float: right;
+}
+
+.menuTitle{
+  font-size: 20px;
+}
+
+.menuItems{
+  border:1px solid black;
+  width: 70%;
+}
+
+.menuItems ul{
+  list-style: none;
+}
+
+.menuItems ul li{
+  padding-left: 10px;
+}
+
+.galleryTitle{
+  font-size: 35px;  
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 3px;
+  border-bottom: 1px solid black;
+}
+
+.galleryContent{
+  padding-top: 15px;
+  padding-bottom : 15px; 
+
+}
+.gallerySection{
+  border-bottom: 1px solid black;
 }
