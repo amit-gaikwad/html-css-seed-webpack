@@ -41,11 +41,14 @@ main{
 }
 
 .navItem {
-  border-left: 1px solid black;   
+  border-right: 1px dotted black;   
   margin-right: -5px;
   display: inline-block;
   width: 12.5%;
   box-sizing: border-box;
+}
+nav ul :last-child{
+  border-right: none;
 }
 
 .logo{
@@ -57,8 +60,9 @@ main{
 }
 
 .leftContainer{
-  width: 20%;
+  width: 15%;
   float: left;
+  margin-right : 3%;
 }
 .rightContainer{
   width: 80%;
@@ -71,7 +75,6 @@ main{
 
 .menuItems{
   border:1px solid black;
-  width: 70%;
 }
 
 .menuItems ul{
@@ -84,7 +87,7 @@ main{
 
 .galleryTitle{
   font-size: 35px;  
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: cursive;
   padding-bottom: 3px;
   border-bottom: 1px solid black;
 }
@@ -96,4 +99,29 @@ main{
 }
 .gallerySection{
   border-bottom: 1px solid black;
+}
+
+div.readmore {
+  margin-top: 20px;
+}
+
+div.otherSection{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+nav.navigationBar{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: silver;
+}
+.parentContainer{
+  clear:both;
+}
+.listItem{
+  margin: 10px;
+  padding-left: 10px;
+}
+.listItem ul li{
+  margin-bottom: 7px;
 }
