@@ -125,3 +125,6 @@ nav.navigationBar{
 .listItem ul li{
   margin-bottom: 7px;
 }
+.blockList{
+  margin: 10px 0 10px 0px;
+}
